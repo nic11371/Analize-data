@@ -2,6 +2,8 @@ import pandas as pd
 
 order_path = "./data/Orders.csv"
 
+df_clicks = pd.read_csv('./data/Cite_clicks_outliers.csv', index_col=0)
+
 
 # BEGIN (write your solution here)
 def check_nan(df):

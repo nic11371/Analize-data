@@ -1,7 +1,12 @@
+import pandas as pd
+
+
 order_path = "./data/Orders.csv"
 
 # Еще нужна функция read, для преобразования в DataFrame
 # BEGIN (write your solution here)
+
+df_clicks = pd.read_csv('./data/Cite_clicks_outliers.csv', index_col=0)
 
 
 def fill_mean(df):
