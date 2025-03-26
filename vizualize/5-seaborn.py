@@ -8,6 +8,7 @@ df = pd.read_csv('taxi_orders.csv')
 df['datetime'] = pd.to_datetime(df['datetime'])
 df['hour'] = df['datetime'].dt.hour
 
+
 # BEGIN (write your solution here)
 def get_orders():
     sns.barplot(
